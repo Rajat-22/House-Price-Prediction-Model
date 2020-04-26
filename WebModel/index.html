@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>House Price Prediction System</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Plottage Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<link href='//fonts.googleapis.com/css?family=Quicksand:400,300,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+
+</head>
+	
+<body>
+<!-- header -->
+	<div class="header">	
+		<div class="header-top">
+			<div class="container"> 
+				<div class="header-top-left">
+					<ul>
+						<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+91 9873957498</li>
+						<li><a href="mailto:rajatsharma221098@gmail.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>rajatsharma221098@gmail</a></li>
+					</ul>
+				</div>
+				
+				<div class="header-top-right">
+					<div class="col-4 header-loginw3ls">
+									<a href="#" class="log" data-toggle="modal" data-target="#exampleModalCenter1">
+										<i class="fas fa-user mr-2"></i> &nbsp;&nbsp;&nbsp;Login</a>
+								</div>
+								
+				</div>
+				
+				<div class="header-top-right">
+				<div class="col-4 header-loginw3ls">
+									<a href="#" class="log" data-toggle="modal" data-target="#exampleModalCenter2">
+										<i class="fas fa-key mr-2"></i>Register</a>
+								</div>
+				</div>
+				
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="container">
+				<nav class="navbar navbar-default">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </button>
+						<div class="logo">
+							<h1><a class="navbar-brand" href="index.html">House<span>Price Prediction</span></a></h1>
+						</div>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+						<nav>
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="index.html">Home</a></li>
+			
+								<li><a href="gallery.html" class="hvr-bounce-to-bottom">Gallery</a></li>
+								
+								<li><a href="mail.html" class="hvr-bounce-to-bottom">Enquiry</a></li>
+							</ul>
+						</nav>
+					</div>
+					<!-- /.navbar-collapse -->
+				</nav>
+			</div>
+		</div>
+	</div>
+<!-- //header -->
+
+<!-- //Login Register Modal -->
+
+
+<!-- login -->
+	<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header text-center">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="login px-4 mx-auto mw-100">
+						<h5 class="text-center mb-4">Login Now</h5>
+						<form action="#" method="post">
+							<div class="form-group">
+								<label>Username</label>
+								<input type="text" class="form-control" name="text" placeholder="" required="">
+							</div>
+							<div class="form-group">
+								<label class="mb-2">Password</label>
+								<input type="password" class="form-control" name="password" placeholder="" required="">
+							</div>
+							<button type="submit" class="btn btn-primary submit mb-4">Login</button>
+							<p class="text-center pb-4">
+								<a href="#">Forgot your password?</a>
+							</p>
+							<p class="text-center pb-4">
+								Don't have an account?
+								<a href="#" data-toggle="modal" data-target="#exampleModalCenter2">Create one now</a>
+							</p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //login -->
+	<!-- register -->
+	<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header text-center">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="login px-4 mx-auto mw-100">
+						<h5 class="text-center mb-4">Register Now</h5>
+						<form action="#" method="post">
+							<div class="form-group">
+								<label>First Name</label>
+								<input type="text" class="form-control" name="text" placeholder="" required="">
+							</div>
+							<div class="form-group">
+								<label>Last Name</label>
+								<input type="text" class="form-control" name="text" placeholder="" required="">
+							</div>
+							<div class="form-group">
+								<label class="mb-2">Password</label>
+								<input type="password" class="form-control" name="password" id="password1" placeholder="" required="">
+							</div>
+							<div class="form-group">
+								<label>Confirm Password</label>
+								<input type="password" class="form-control" name="password" id="password2" placeholder="" required="">
+							</div>
+							<button type="submit" class="btn btn-primary submit mb-4">Register</button>
+							<p class="text-center pb-4">
+								<a href="#">By clicking Register, I agree to your terms</a>
+							</p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//register-->
+
+
+
+<!-- //Login Register Modal -->
+
+
+<!-- banner -->
+	<div class="banner">
+		<div class="container">
+			<div class="banner-left">
+				<h3>The easiest way to find your dream home</h3>
+				
+			</div>
+			<div class="banner-right">
+				<h3><span>Search For Home</span></h3>
+				<div class="reservation">
+				
+				
+				<div class="keywords">
+						
+							<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+							<input type="text" id="lotsize" name="lotsize" placeholder="Enter Lotsize" required=" ">
+							
+					</div>
+					
+					<div class="section_room">
+						
+					</div>
+					<div class="reservation-grids">
+						<div class="reservation-grid-left">
+							<div class="section_room">
+								<span class="tent"> </span>
+								<select id="driveway"  class="frm-field required">
+									<option value="null">Driveway</option>
+									<option value="0">0</option>         
+									<option value="1">1</option>
+								</select>
+							</div>
+						</div>
+						<div class="reservation-grid-right">
+							<div class="section_room">
+								<span class="bath"></span>
+								<select id="bathrms" class="frm-field required">
+									<option value="null">Bathrooms</option>
+									<option value="0">0</option>         
+									<option value="1">1</option>
+									
+								</select>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					
+					<br>
+					<div class="reservation-grids">
+						<div class="reservation-grid-left">
+							<div class="section_room">
+								<span class="glyphicon glyphicon-yen" aria-hidden="true"></span>
+								<select id="recroom" class="frm-field required">
+									<option value="null">Recroom</option>
+									<option value="0">0</option>         
+									<option value="1">1</option>
+								</select>
+							</div>
+						</div>
+						<div class="reservation-grid-right">
+							<div class="section_room">
+								<span class="glyphicon glyphicon-yen" aria-hidden="true"></span>
+								<select id="fullbase" class="frm-field required">
+									<option value="null">Full Base</option>
+									<option value="0">0</option>         
+									<option value="1">1</option>
+								</select>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<br>
+					<div class="reservation-grids">
+						<div class="reservation-grid-left">
+							<div class="section_room">
+								<span class="glyphicon glyphicon-yen" aria-hidden="true"></span>
+								<select id="gashw" class="frm-field required">
+									<option value="null">Gas Hot Water</option>
+									<option value="0">0</option>         
+									<option value="1">1</option>
+								</select>
+							</div>
+						</div>
+						<div class="reservation-grid-right">
+							<div class="section_room">
+								<span class="glyphicon glyphicon-yen" aria-hidden="true"></span>
+								<select id="airco" class="frm-field required">
+									<option value="null">AirConditioning</option>
+									<option value="0">0</option>         
+									<option value="1">1</option>
+								</select>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<br>
+					
+					<div class="reservation-grids">
+						<div class="reservation-grid-left">
+							<div class="section_room">
+								<span class="glyphicon glyphicon-yen" aria-hidden="true"></span>
+								<select id="garagepl" class="frm-field required">
+									<option value="null">Garage</option>
+									<option value="0">0</option>         
+									<option value="1">1</option>
+								</select>
+							</div>
+						</div>
+						<div class="reservation-grid-right">
+							<div class="section_room">
+								<span class="glyphicon glyphicon-yen" aria-hidden="true"></span>
+								<select id="prefarea" class="frm-field required">
+									<option value="null">Prefarea</option>
+									<option value="0">0</option>         
+									<option value="1">1</option>
+								</select>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<br>
+					<div class="reservation-grids">
+						<div class="reservation-grid-left">
+							<div class="section_room">
+								<span class="glyphicon glyphicon-yen" aria-hidden="true"></span>
+								<select id="stories_four" class="frm-field required">
+									<option value="null">Story Four</option>
+									<option value="0">0</option>         
+									<option value="1">1</option>
+								</select>
+							</div>
+						</div>
+						<div class="reservation-grid-right">
+							<div class="section_room">
+								<span class="glyphicon glyphicon-yen" aria-hidden="true"></span>
+								<select id="stories_one" class="frm-field required">
+									<option value="null">Story One</option>
+									<option value="0">0</option>         
+									<option value="1">1</option>
+								</select>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					
+					<br>
+					
+					<div class="reservation-grids">
+						<div class="reservation-grid-left">
+							<div class="section_room">
+								<span class="glyphicon glyphicon-yen" aria-hidden="true"></span>
+								<select id="stories_three" class="frm-field required">
+									<option value="null">Story Three</option>
+									<option value="0">0</option>         
+									<option value="1">1</option>
+								</select>
+							</div>
+						</div>
+						</div>
+						
+						<br>
+					<br><br>
+					
+					<div class="keywords">
+						
+							
+							
+							<input type="submit" name="btn_predict" id="btn_predict" value="Predict">
+<br><br><h4>Your Predicted House Price Is : <h3 id="result">Result</h3></h4>
+						
+						
+					</div>
+					
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- //banner -->
+
+
+
+<!-- events -->
+	<div class="events">
+		<div class="container">
+			<h3><span>Recently Added Properties</span></h3>
+			<p class="autem">Recent deals closed by some of our sellers</p>
+			<div class="events-grids">
+				<div class="col-md-4 events-grid">
+					<div class="events-grid1 hvr-sweep-to-top">
+						<a href="single.html"><img src="images/6.jpg" alt=" " class="img-responsive" /></a>
+						<h4><a href="single.html">Arna Meadows </a></h4>
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Admin</a></li>
+							<li><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>May 20, 2019</li>
+						</ul>
+						<p>Arna Meadows in Hulimavu, Bangalore South by Arna Shelters is a residential project.The project offers Apartment with perfect combination of contemporary architecture and features to provide comfortable living</p>
+					</div>
+				</div>
+				<div class="col-md-4 events-grid">
+					<div class="events-grid1 hvr-sweep-to-top">
+						<a href="single.html"><img src="images/8.jpg" alt=" " class="img-responsive" /></a>
+						<h4><a href="single.html">Provident Central Parki</a></h4>
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Admin</a></li>
+							<li><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>May 25, 2019</li>
+						</ul>
+						<p>Provident Central Park in Kanakpura Road, Bangalore South by Provident Housing Builders is a residential project.Apartment with perfect combination of contemporary architecture and features to provide comfortable living. </p>
+					</div>
+				</div>
+				<div class="col-md-4 events-grid">
+					<div class="events-grid1 hvr-sweep-to-top">
+						<a href="single.html"><img src="images/7.jpg" alt=" " class="img-responsive" /></a>
+						<h4><a href="single.html">NYK Metro Urbano</a></h4>
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Admin</a></li>
+							<li><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>May 30, 2019</li>
+						</ul>
+						<p>NYK Metro Urbano in Bommanahalli, Bangalore South by NYK Homes is a residential project.The project offers Apartment with perfect combination of contemporary architecture and features to provide comfortable living.</p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //events -->
+<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<h2>Sign up for our newsletter</h2>
+			<p class="para">House Price Prediction is a fast growing real estate website among the various property sites in India. It's established to help you Buy, Rent, Sell Property in India</p>
+			<div class="footer-contact">
+				<form action="#" method="post">
+					<input type="text" name="Email" placeholder="Enter your email to update" required=" ">
+					<input type="submit" value="Subscribe">
+				</form>
+			</div>
+			<div class="footer-grids">
+				
+				
+				<div class="clearfix"> </div>
+			</div>
+			<div class="footer-copy">
+				<p>© 2019. All rights reserved | Design by <a href="#">Rajat</a></p>
+			</div>
+		</div>
+	</div>
+<!-- //footer -->
+<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+
+</body>
+</html>

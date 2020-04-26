@@ -1,0 +1,311 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>House Price Prediction System</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Plottage Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<link href='//fonts.googleapis.com/css?family=Quicksand:400,300,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+
+</head>
+	
+<body>
+<!-- header -->
+	<div class="header">	
+		<div class="header-top">
+			<div class="container"> 
+				<div class="header-top-left">
+					<ul>
+						<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+91 9873957498</li>
+						<li><a href="mailto:rajatsharma221098@gmail.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>rajatsharma221098@gmail</a></li>
+					</ul>
+				</div>
+				
+				<div class="header-top-right">
+					<div class="col-4 header-loginw3ls">
+									<a href="#" class="log" data-toggle="modal" data-target="#exampleModalCenter1">
+										<i class="fas fa-user mr-2"></i> &nbsp;&nbsp;&nbsp;Login</a>
+								</div>
+								
+				</div>
+				
+				<div class="header-top-right">
+				<div class="col-4 header-loginw3ls">
+									<a href="#" class="log" data-toggle="modal" data-target="#exampleModalCenter2">
+										<i class="fas fa-key mr-2"></i>Register</a>
+								</div>
+				</div>
+				
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="container">
+				<nav class="navbar navbar-default">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </button>
+						<div class="logo">
+							<h1><a class="navbar-brand" href="index.html">House<span>Price Prediction</span></a></h1>
+						</div>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+						<nav>
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="index.html">Home</a></li>
+			
+								<li><a href="gallery.html" class="hvr-bounce-to-bottom">Gallery</a></li>
+								
+								<li><a href="mail.html" class="hvr-bounce-to-bottom">Enquiry</a></li>
+							</ul>
+						</nav>
+					</div>
+					<!-- /.navbar-collapse -->
+				</nav>
+			</div>
+		</div>
+	</div>
+<!-- //header -->
+
+<!-- //Login Register Modal -->
+
+
+<!-- login -->
+	<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header text-center">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="login px-4 mx-auto mw-100">
+						<h5 class="text-center mb-4">Login Now</h5>
+						<form action="#" method="post">
+							<div class="form-group">
+								<label>Username</label>
+								<input type="text" class="form-control" name="text" placeholder="" required="">
+							</div>
+							<div class="form-group">
+								<label class="mb-2">Password</label>
+								<input type="password" class="form-control" name="password" placeholder="" required="">
+							</div>
+							<button type="submit" class="btn btn-primary submit mb-4">Login</button>
+							<p class="text-center pb-4">
+								<a href="#">Forgot your password?</a>
+							</p>
+							<p class="text-center pb-4">
+								Don't have an account?
+								<a href="#" data-toggle="modal" data-target="#exampleModalCenter2">Create one now</a>
+							</p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //login -->
+	<!-- register -->
+	<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header text-center">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="login px-4 mx-auto mw-100">
+						<h5 class="text-center mb-4">Register Now</h5>
+						<form action="#" method="post">
+							<div class="form-group">
+								<label>First Name</label>
+								<input type="text" class="form-control" name="text" placeholder="" required="">
+							</div>
+							<div class="form-group">
+								<label>Last Name</label>
+								<input type="text" class="form-control" name="text" placeholder="" required="">
+							</div>
+							<div class="form-group">
+								<label class="mb-2">Password</label>
+								<input type="password" class="form-control" name="password" id="password1" placeholder="" required="">
+							</div>
+							<div class="form-group">
+								<label>Confirm Password</label>
+								<input type="password" class="form-control" name="password" id="password2" placeholder="" required="">
+							</div>
+							<button type="submit" class="btn btn-primary submit mb-4">Register</button>
+							<p class="text-center pb-4">
+								<a href="#">By clicking Register, I agree to your terms</a>
+							</p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//register-->
+
+
+
+<!-- //Login Register Modal -->
+<!-- breadcrumbs -->
+	<div class="services-top-breadcrumbs">
+		<div class="container">
+			<div class="services-top-breadcrumbs-right">
+				<ul>
+					<li><a href="index.html">Home</a> <i>/</i></li>
+					<li>Mail Us</li>
+				</ul>
+			</div>
+			<div class="services-top-breadcrumbs-left">
+				<h3>Mail Us</h3>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- //breadcrumbs -->
+<!-- mail -->
+	<div class="map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7859812.209374686!2d101.30962748076922!3d15.86716175385292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31157a4d736a1e5f%3A0xb03bb0c9e2fe62be!2sVietnam!5e0!3m2!1sen!2sin!4v1461066179025" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	<div class="contact">
+		<div class="container">
+			<h3><span>Mail Us</span></h3>
+			<p class="autem">Enquire Now - Please fill up the detail below</p>
+			<div class="contact-grids">
+				<div class="contact-grid">
+					<div class="col-md-6 contact-grid-left">
+						<form action="#" method="post">
+							<input type="text" value="Name" name="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+							<input type="text" value="Phone" name="Phone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}" required="">
+						</form>
+					</div>
+					<div class="col-md-6 contact-grid-left">
+						<form action="#" method="post">
+							<input type="email" value="Email" name="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+							<input type="text" value="Subject" name="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}" required="">
+						</form>
+					</div>
+					<div class="clearfix"> </div>
+					<form action="#" method="post">
+						<textarea name="Message" type="text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
+						<input type="submit" value="Submit Now">
+					</form>
+				</div>
+			</div>
+			<div class="contact-grid1">
+				<div class="col-md-4 contact-grid1-left">
+					<div class="contact-grid1-left1">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+						<h4>Contact By Email</h4>
+						<p> House Price Prediction is a platform which acts a medium for allowing people having converging interests involving real estate transactions, namely the buyer/tenant and owner/broker</p>
+						<ul>
+							<li>Mail1: <a href="mailto:rajatsharma221098@gmail.com">rajatsharma221098@gmail</a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4 contact-grid1-left">
+					<div class="contact-grid1-left1">
+						<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+						<h4>Contact By Phone</h4>
+						<p>House Price Prediction is a platform which acts a medium for allowing people having converging interests involving real estate transactions, namely the buyer/tenant and owner/broker</p>
+						<ul>
+							<li>Phone : 9873957498</li>
+							<li>Whatsapp : 9454276383</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4 contact-grid1-left">
+					<div class="contact-grid1-left1">
+						<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+						<h4>Looking For Address</h4>
+						<p>House Price Prediction is a platform which acts a medium for allowing people having converging interests involving real estate transactions, namely the buyer/tenant and owner/broker</p>
+						<ul>
+							<li>Address: Raj Nagar Extension , Ghaziabad</li>
+							<li>New Delhi , India</li>
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //mail -->
+<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<h2>Sign up for our newsletter</h2>
+			<p class="para">House Price Prediction is a fast growing real estate website among the various property sites in India. It's established to help you Buy, Rent, Sell Property in India</p>
+			<div class="footer-contact">
+				<form action="#" method="post">
+					<input type="text" name="Email" placeholder="Enter your email to update" required=" ">
+					<input type="submit" value="Subscribe">
+				</form>
+			</div>
+			<div class="footer-grids">
+				
+				
+				<div class="clearfix"> </div>
+			</div>
+			<div class="footer-copy">
+				<p>© 2019. All rights reserved | Design by <a href="#">Rajat</a></p>
+			</div>
+		</div>
+	</div>
+<!-- //footer -->
+<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
